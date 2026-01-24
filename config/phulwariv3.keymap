@@ -20,11 +20,11 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &out OUT_BLE  &soft_off                        &out OUT_USB    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp DEL
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                           &kp F7          &kp F8          &kp F9        &kp F10               &kp F11                &kp F12
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET       &kp AMPS        &kp PERIOD    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&kp RCTRL   &trans        &trans        &trans        &trans        &trans     &kp LBKT   &kp RBKT   &kp EQUAL       &kp MINUS       &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-                                        &kp LALT      &kp RGUI      &trans     &kp SPACE  &kp ENTER  &kp LEFT_SHIFT  &kp RGUI        &kp RALT
+&bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &out OUT_BLE  &soft_off                        &out OUT_USB    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp DEL
+&kp F1      &kp F2          &kp F3        &kp F4        &kp F5        &kp F6                           &kp F7          &kp F8          &kp F9        &kp F10               &kp F11                &kp F12
+&kp GRAVE   &kp EXCL        &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                        &kp CARET       &kp AMPS        &kp PERIOD    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
+&kp RCTRL   &studio_unlock  &trans        &trans        &trans        &trans     &kp LBKT   &kp RBKT   &kp EQUAL       &kp MINUS       &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+                                          &kp LALT      &kp RGUI      &trans     &kp SPACE  &kp ENTER  &kp LEFT_SHIFT  &kp RGUI        &kp RALT
             >;
         };
     };
