@@ -14,9 +14,6 @@ if SHIELD_PHULWARIV3_LEFT || SHIELD_PHULWARIV3_RIGHT
 config ZMK_SPLIT
     default y
 
-config BT_CTLR_TX_PWR_PLUS_8
-    y
-
 config ZMK_BLE_EXPERIMENTAL_CONN
     default y
 
