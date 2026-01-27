@@ -17,6 +17,10 @@ config ZMK_SPLIT
 config ZMK_BLE_EXPERIMENTAL_CONN
     default y
 
+config CONFIG_BT_CTLR_PHY_2M
+    default y
+
+
 endif
 
 # ---------------------
