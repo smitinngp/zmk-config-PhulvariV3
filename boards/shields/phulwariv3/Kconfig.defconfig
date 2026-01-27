@@ -17,6 +17,9 @@ config ZMK_SPLIT
 config CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES
     default y
 
+config BT_CTLR_TX_PWR_DBM
+    default 8
+
 endif
 
 # ---------------------
